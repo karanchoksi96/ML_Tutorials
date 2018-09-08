@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn import preprocessing, model_selection, neighbors
+from sklearn import preprocessing, model_selection, neighbors, svm
 import pandas as pd
 
 df = pd.read_csv('breast-cancer-wisconsin.data.txt')
